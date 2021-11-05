@@ -206,12 +206,29 @@ html, body {
     font-size: 3.5rem;
     font-weight: 800;
     margin: 2rem 0;
+    transition: 1s ease-in-out;
 }
 
 .text p {
     font-weight: 600;
+    transition: 1s ease-in-out;
+    transition-delay: .2s;
 }
 
 .img img {
     width: 30vw;
+    transition: 1s ease-in-out;
+    transition-delay: .4s;
+}
+
+.text.sign-in h2,
+.text.sign-in p,
+.img.sign-in img {
+    transform: translateX(-150%);
+}
+
+.container.sign-in h2,
+.container.sign-in p,
+.container.sign-in img {
+    transform: translateX(0);
 }
