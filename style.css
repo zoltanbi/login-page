@@ -187,3 +187,31 @@ html, body {
 .container.sign-up .social-list.sign-up>div {
     transform: scale(1);
 }
+
+.content-row {
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: 6;
+    width: 100%;
+}
+
+.text {
+    margin: 4rem;
+    color: var(--white);
+}
+
+.text h2 {
+    font-size: 3.5rem;
+    font-weight: 800;
+    margin: 2rem 0;
+}
+
+.text p {
+    font-weight: 600;
+}
+
+.img img {
+    width: 30vw;
+}
